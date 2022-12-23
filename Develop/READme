@@ -1,3 +1,91 @@
-#
+# Module 3 Project: Password Generator
+
+## User Story and Acceptance Criteria
+User Story
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
+
+Acceptance Criteria
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+
+WHEN asked for character types to include in the password
+THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
 
 ## Description
+I went rogue on this one; after I cloned the starter code, I wasn't sure where or how to get started. 
+
+I was wanting to access the lecture recordings to freshen up on some of the topics (arrays,functions, objects, etc) so I could build out the JS file, but I couldn't access the recordings on bootcampspot for some reason.
+
+Option B was trying to find youtube lectures on JS, other examples, to then apply to the started code given on bootcampspot.  After starting the video, I liked the look and functionality of the other password generator a lot more. I decided to code along with the video as the JS file was written out, and since I was understanding what was going on in the video (and unable to access lecture videos), I decided to just make this my project and adjust later if possible.
+
+The creator of this password generator is someone named Florin Pop.
+    -Link to code: https://codepen.io/FlorinPop17/pen/BaBePej
+    -Florin's Twitter: https://twitter.com/florinpop1705
+        *I started following him on twitter to develop my developer social media resources described in the Pre Work.
+
+The video I was coding along with is linked here:
+    https://www.youtube.com/watch?v=duNmhKgtcsI&list=PLfriTpy8aQGMJ0g_EaGNrinh18gkKsn3H
+
+
+
+
+    *I have referenced the sources and tried to give credit where it is due to the best of my abilities, and explicitly reference the only change I made to the code to make it "original".  Please do not interpret this as attempted plagiarism. 
+
+        -Plagiarism - the practice of taking someone else's work or ideas and passing them off as one's own.
+        
+        "there were accusations of plagiarism"
+
+## Why I Went Rogue
+I thought walking along with this video was useful for a couple reasons:
+    A. I can't put my finger on it yet, but the way this guy develops a JS script feels a little different that the way Andre (our instructor) does.
+
+    B. The way Florin writes this JS script seems to be very efficient.  There are a lot of instructions building a lot of functionality, but written in not that many lines of code.
+
+    C. It was useful to see how the developer decomposed the project into parts:
+        1. Generator Functions - writing generator functions to generate random password inputs
+        2. Writing DOM elements, equivalent variables to be used by DOM elements
+        3. Generate Password Function - passing the above into a password generation function that uses and         combines the above elements to generate an actual password.
+        4.
+
+    D.
+
+
+## Current Problems with Application and Assignment
+    1. There isn't much original code.  In the html, Line 47, I changed the title on the "Generate Password" button to "Generate Randomized Password". This is the only code original to Alan Hornbaker. 
+
+    2. Even though I "co-coded" this JS file with the video 4-5 times, my application still doesn't actually generate a password.  There must be some bug in the JS file that was born when I was coding along with the video.
+
+## Thoughts for Future Development and Feedback Request
+
+Thoughts on Future Development:
+
+I am constantly needing to generate new passwords for applications at work, and thought this application might be useful for those needs.  Additional features I might add are:
+    1. the ability to use the application offline or outside of a web browser.
+    2. the  ability store used passwords in a seperate location or sister application.
+    3. other security features.
+
+
+Feedback Request:
+
+    In addition to the standard feedback you'll need to give me per class structure, could you also point me towards my bug?  I want to actually be able to use this thing, but I can't find the difference between my JS file and the one written in the video.  Thank you!
+
+        -Alan
+ 
